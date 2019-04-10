@@ -7,11 +7,11 @@ td
 margin:50px;
 padding:50px;
 }
-.first td:nth-child(even){
+.first td:nth-child(even){  <-- Якщо хочете вказати тип тега, то треба використовувати типізований аналог з of-type
     background-color:
      chartreuse;
 }
 
-.sekond td:nth-child(odd){
+.sekond td:nth-child(odd){    <-- Аналогічно
     background-color: chartreuse;
 }
