@@ -1,0 +1,17 @@
+table,td{
+    border: 2px solid black;
+  
+}
+td
+{
+margin:50px;
+padding:50px;
+}
+.first td:nth-child(even){
+    background-color:
+     chartreuse;
+}
+
+.sekond td:nth-child(odd){
+    background-color: chartreuse;
+}
